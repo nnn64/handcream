@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-iPhone_14_Pro_1">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_14_Pro_1" data-name="iPhone 14 Pro – 1" clip-path="url(#clip-iPhone_14_Pro_1)">
+    <rect width="512" height="512" fill="#fff"/>
+    <text id="N" transform="translate(87 407)" fill="#333" font-size="420" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.08em"><tspan x="0" y="0">N</tspan></text>
+  </g>
+</svg>
