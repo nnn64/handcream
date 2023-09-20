@@ -358,7 +358,7 @@ header .sns{
     background-color: #fff;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   }
-  
+
   .nav{
     position: static;
     top: auto;
@@ -372,12 +372,13 @@ header .sns{
   }
   
   .nav__list{
+    /* display: flex; */
     flex-direction: row;
     align-items: center;
     padding: 0;
     line-height: 1;
   }
-
+  
   .header .nav__item:not(:last-child){
     padding-bottom: 0;
     padding-right: 30px;
@@ -386,7 +387,7 @@ header .sns{
   .nav__item-btn{
     display: none;
   }
-
+  
   .nav__btn{
     display: none;
   }
@@ -411,7 +412,7 @@ header .sns{
     background-color: #fff;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   }
-  
+
   .nav{
     position: static;
     top: auto;
@@ -423,15 +424,14 @@ header .sns{
     height: auto;
     opacity: 1;
   }
-  
+
   .nav__list{
-    /* display: flex; */
     flex-direction: row;
     align-items: center;
     padding: 0;
     line-height: 1;
   }
-
+  
   .header .nav__item:not(:last-child){
     padding-bottom: 0;
     padding-right: 30px;
@@ -517,7 +517,6 @@ header .sns{
     width: 62%;
     height: 100%;
     top: 0;
-    /* right: 0; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center 75%;
@@ -572,7 +571,6 @@ header .sns{
 @media (min-width:960px){
   #concept{
     background: linear-gradient(180deg,#fff 0%,#fff 33%,#F5EFDC 33%,#F5EFDC 100%);
-    /* padding-bottom: 210px; */
   }
 
   .concept__inner{
@@ -591,7 +589,7 @@ header .sns{
 #points{
   margin-top: 0;
   padding: 90px 0;
-  background-image: url(../img/point.jpg);
+  background-image: url(../img/point_bg.jpg);
   background-color:rgba(255,255,255,0.25);
   background-blend-mode:lighten;
   background-repeat: no-repeat;
@@ -805,7 +803,7 @@ header .sns{
     text-align: center;
     padding-bottom: 30px;
   }
-
+  
   /* 　how to use */
   
   .howto{
@@ -855,7 +853,7 @@ header .sns{
     text-align: center;
     padding-bottom: 30px;
   }
-
+  
   /* 　how to use */
   
   .howto{
@@ -998,7 +996,7 @@ footer .container{
   position: relative;
   text-transform: uppercase;
   writing-mode: vertical-lr;
-  width: ;
+  /* width: ; */
   height: 100px;
   transform: rotate(180deg);
 }
